@@ -1,0 +1,26 @@
+# robots.txt لموقع دروسي
+
+User-agent: *
+Allow: /
+
+# السماح لجميع محركات البحث بالزحف
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# منع الزحف إلى المجلدات الإدارية (إذا وجدت)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# خريطة الموقع
+Sitemap: https://outghratine.github.io/DorosiMaroc/sitemap.xml
+
+# معلومات إضافية
+# موقع: موقع دروسي
+# البريد الإلكتروني: contact@dorossy.com

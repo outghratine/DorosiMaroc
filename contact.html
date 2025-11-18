@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا - موقع دروسي</title>
+    <meta name="description" content="تواصل معنا - نحن هنا للإجابة على جميع استفساراتكم واقتراحاتكم">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="post-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Header Bar -->
+    <div class="top-header">
+        <div class="container">
+            <div class="top-nav">
+                <a href="index.html">الرئيسية</a>
+                <a href="advertising.html">للإشهار والإعلان لدينا</a>
+                <a href="about.html">من نحن</a>
+                <a href="sitemap.html">خريطة الموقع</a>
+                <a href="privacy.html">سياسة الخصوصية</a>
+                <a href="contact.html">راسلنا و اتصل بنا</a>
+            </div>
+            <div class="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logo Section -->
+    <div class="logo-section">
+        <div class="container">
+            <div class="site-branding">
+                <h1 class="site-title">موقع دروسي</h1>
+                <p class="site-description">مستجدات تربوية ومعلومات دراسية<br>دروس وفروض وامتحانات</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li class="nav-home"><a href="index.html"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fas fa-book"></i> تعليم إبتدائي</a></li>
+                <li><a href="#"><i class="fas fa-graduation-cap"></i> إعدادي</a></li>
+                <li><a href="#"><i class="fas fa-user-graduate"></i> ثانوي</a></li>
+                <li><a href="#"><i class="fas fa-university"></i> جامعي</a></li>
+                <li><a href="#"><i class="fas fa-briefcase"></i> وظائف</a></li>
+                <li><a href="#"><i class="fas fa-tasks"></i> إدارة</a></li>
+                <li><a href="#"><i class="fas fa-chalkboard-teacher"></i> تكوينات</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html"><i class="fas fa-home"></i> الرئيسية</a>
+            <span class="separator">/</span>
+            <span class="current">اتصل بنا</span>
+        </div>
+    </div>
+
+    <!-- Contact Content -->
+    <div class="article-wrapper">
+        <div class="container">
+            <div class="article-layout">
+                <article class="main-article">
+                    <header class="article-header">
+                        <h1 class="article-title">اتصل بنا</h1>
+                    </header>
+
+                    <div class="article-content">
+                        <div class="intro-box">
+                            <h2><i class="fas fa-envelope"></i> نحن هنا للاستماع إليك</h2>
+                            <p>يسعدنا تواصلكم معنا. سواء كان لديكم استفسار، اقتراح، أو ملاحظة، فريقنا جاهز للرد عليكم في أقرب وقت ممكن.</p>
+                        </div>
+
+                        <h2>نموذج التواصل</h2>
+                        <div class="comment-form" style="margin-bottom: 40px;">
+                            <form id="contactForm">
+                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                                    <input type="text" id="name" placeholder="الاسم الكامل *" required>
+                                    <input type="email" id="email" placeholder="البريد الإلكتروني *" required>
+                                </div>
+                                <input type="text" id="subject" placeholder="الموضوع *" required>
+                                <textarea id="message" placeholder="رسالتك *" rows="8" required></textarea>
+                                <button type="submit" class="submit-btn">
+                                    <i class="fas fa-paper-plane"></i> إرسال الرسالة
+                                </button>
+                                <div id="formMessage" style="margin-top: 15px; display: none;"></div>
+                            </form>
+                        </div>
+
+                        <h2>معلومات الاتصال</h2>
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <i class="fas fa-envelope"></i>
+                                <h4>البريد الإلكتروني</h4>
+                                <p><a href="mailto:contact@dorossy.com">contact@dorossy.com</a></p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-phone"></i>
+                                <h4>الهاتف</h4>
+                                <p dir="ltr">+212 6XX XXX XXX</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <h4>العنوان</h4>
+                                <p>المغرب</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-clock"></i>
+                                <h4>ساعات العمل</h4>
+                                <p>الإثنين - الجمعة<br>9:00 - 18:00</p>
+                            </div>
+                        </div>
+
+                        <h2>تابعنا على وسائل التواصل الاجتماعي</h2>
+                        <div class="social-links" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 30px 0;">
+                            <a href="#" class="social-link facebook" target="_blank">
+                                <i class="fab fa-facebook-f"></i> فيسبوك
+                            </a>
+                            <a href="#" class="social-link twitter" target="_blank">
+                                <i class="fab fa-twitter"></i> تويتر
+                            </a>
+                            <a href="#" class="social-link youtube" target="_blank">
+                                <i class="fab fa-youtube"></i> يوتيوب
+                            </a>
+                            <a href="#" class="social-link instagram" target="_blank">
+                                <i class="fab fa-instagram"></i> إنستجرام
+                            </a>
+                        </div>
+
+                        <h2>الأسئلة الشائعة</h2>
+                        <div class="info-box">
+                            <h3><i class="fas fa-question-circle"></i> قبل التواصل معنا</h3>
+                            <p>ربما تجد إجابة سؤالك في صفحة <a href="#">الأسئلة الشائعة</a>. يمكنك أيضاً البحث في الموقع عن المحتوى الذي تبحث عنه.</p>
+                        </div>
+
+                        <h2>اقتراحات وملاحظات</h2>
+                        <p>نحن نرحب بجميع الاقتراحات والملاحظات التي تساعدنا على تحسين خدماتنا. رأيكم يهمنا ويساعدنا على التطوير المستمر.</p>
+
+                        <div class="download-box">
+                            <h3><i class="fas fa-handshake"></i> نشكركم على تواصلكم</h3>
+                            <p>سنرد على رسالتكم في أقرب وقت ممكن، عادةً خلال 24-48 ساعة.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Sidebar -->
+                <aside class="article-sidebar">
+                    <div class="widget">
+                        <h3 class="widget-title">روابط سريعة</h3>
+                        <div class="widget-content">
+                            <ul class="category-list">
+                                <li><a href="about.html"><i class="fas fa-info-circle"></i> من نحن</a></li>
+                                <li><a href="privacy.html"><i class="fas fa-shield-alt"></i> سياسة الخصوصية</a></li>
+                                <li><a href="terms.html"><i class="fas fa-file-contract"></i> الشروط والأحكام</a></li>
+                                <li><a href="advertising.html"><i class="fas fa-bullhorn"></i> الإعلان معنا</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="widget ad-widget">
+                        <div class="ad-placeholder">
+                            <p>مساحة إعلانية</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>جميع الحقوق محفوظة</p>
+                <p class="site-name">موقع دروسي</p>
+                <p class="year">2025</p>
+                <div class="footer-links">
+                    <a href="about.html">من نحن</a> | 
+                    <a href="contact.html">اتصل بنا</a> | 
+                    <a href="privacy.html">سياسة الخصوصية</a> | 
+                    <a href="terms.html">الشروط والأحكام</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // معالجة نموذج التواصل
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formMessage = document.getElementById('formMessage');
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // هنا يمكنك إضافة كود لإرسال البيانات إلى سيرفر أو خدمة بريد إلكتروني
+            // مثل EmailJS أو Formspree
+            
+            // رسالة نجاح مؤقتة
+            formMessage.style.display = 'block';
+            formMessage.style.padding = '15px';
+            formMessage.style.borderRadius = '8px';
+            formMessage.style.background = '#d1fae5';
+            formMessage.style.color = '#065f46';
+            formMessage.style.border = '2px solid #059669';
+            formMessage.innerHTML = '<i class="fas fa-check-circle"></i> شكراً لتواصلك معنا! سنرد عليك في أقرب وقت ممكن.';
+            
+            // إعادة تعيين النموذج
+            this.reset();
+            
+            // إخفاء الرسالة بعد 5 ثواني
+            setTimeout(() => {
+                formMessage.style.display = 'none';
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
